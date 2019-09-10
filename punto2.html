@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>alexPunto2</title>
+</head>
+<body>
+    
+
+
+    <script>
+        conmas=0;
+        comenos=0;
+
+       c= prompt("digite cantidad pesos a calcular");
+        for (let i = 1; i <=c; i++) {
+            pesos=parseFloat(prompt("Digite peso"))
+            if (pesos >=80) {
+                conmas++;
+                
+            } 
+            if (pesos<80) {
+                comenos++;
+            }
+            
+        }
+    
+    console.log("personas que pesan mas de 80kg"+conmas)
+    console.log("personas que pesan menos de 80kg"+comenos)
+    
+    
+    
+    
+    
+    </script>
+</body>
+</html>
